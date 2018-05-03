@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KDoc
+Bundle-SymbolicName: com.iyher.eclipse.plugin.kdoc;singleton:=true
+Bundle-Version: 0.0.1
+Automatic-Module-Name: pluginTest
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.jdt.core;bundle-version="3.13.102",
+ org.eclipse.jdt.ui;bundle-version="3.13.100",
+ org.eclipse.jface.text;bundle-version="3.12.2",
+ org.eclipse.core.runtime;bundle-version="3.13.0",
+ org.eclipse.ui;bundle-version="3.109.0",
+ org.jetbrains.kotlin.ui;bundle-version="0.8.4",
+ org.jetbrains.kotlin.core;bundle-version="0.8.4",
+ org.jetbrains.kotlin.bundled-compiler
